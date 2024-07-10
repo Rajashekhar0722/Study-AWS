@@ -1,0 +1,14 @@
+ls ---list subordinates
+cd----change directory
+/ ---- root directory
+ls -l--->lengthy format in alphabatical order
+ls -lr --->reverse alphabatical order
+ls -lt--->latest file on the top
+ls -ltr ----->old file on the top
+la -la ---->list all files and folders including hidden files
+cd ... ---->one step back
+CRUD
+C---->creat
+R---->read
+U---->Update
+D---->Delete
