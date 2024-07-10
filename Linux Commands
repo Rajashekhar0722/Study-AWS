@@ -12,3 +12,27 @@ C---->creat
 R---->read
 U---->Update
 D---->Delete
+touch ---->creats the empty file
+mkdir ---->make directory
+cat > <file name> ----->file will open,then enter the content,then press enter andctrl+d.
+to read the file ----> cat ><file name>
+> --->which means replace the content
+>> --->which appends the content,it means add the content
+cat >> <file name> ---->which appends the content,by this command we can enter the second line and it wont replace the first line.
+rm <filename> ----> to delete the empty file
+rmdir <file name> --->to delete the empty directory
+rm -r <file name> ---->recursive ---> go inside every folder and delete everything
+cp <source> <destination> --->it is used for coping the file ,source--->what to copy ,Destination --->where to paste
+cp -r --->Recursive
+CUT
+--------
+mv ---> Move it is to move the file
+With in the same folder if we use mv command,it work as rename
+for example--->mv shekhar shekhar-1 --->it will rename the file from shekhar to shekhar-1
+GREP ----
+grep <word to find> <file-name>
+Linux is by default case sensitive 
+Devops and DEVOPS are different if you want to read both then command is ---> grep -i
+
+
+
