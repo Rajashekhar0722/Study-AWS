@@ -33,6 +33,15 @@ GREP ----
 grep <word to find> <file-name>
 Linux is by default case sensitive 
 Devops and DEVOPS are different if you want to read both then command is ---> grep -i
+awk ----> this command is used to divide the data based on coloumns
+awk - F / '{print $1F}' ----> it shows the first word in the coloumn
+awk - F /'{print $nF}' -----> it shows the last words in the coloumn
+      EDITORS
+VIM ----->visually improved
+  :q -----> exit the file
+   :wq ----> write and exit the file and also for save and exit the file
+  :q! -----> without saving and exit the file
+
 
 
 
