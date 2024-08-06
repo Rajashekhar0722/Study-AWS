@@ -41,6 +41,7 @@ VIM ----->visually improved
   :q -----> exit the file
    :wq ----> write and exit the file and also for save and exit the file
   :q! -----> without saving and exit the file
+xfs_growfs -d/dev/(file name) ------->when we modify the volume, to run the modify volume in the linux we should use the command
 
 
 
