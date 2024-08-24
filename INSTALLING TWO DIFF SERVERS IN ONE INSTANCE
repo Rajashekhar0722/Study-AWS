@@ -7,7 +7,8 @@ if you want to edit port to which you want to route traffic
 you can edit the port here you should restart 
       systemctl restart httpd
              FOR NGINX SERVER
-sudo yum install nginx
+yum update -y
+amazone-linux-extras install nginx1 -y
 systemctl start nginx
 systemctl enable nginx
 if you are unable to start the nginx you should edit the ports in the system config
@@ -17,3 +18,5 @@ then restart the system     syatemctl restart nginx
 by using same public ip or dns you should check the end point of apache and nginx servers
 to check it go to browser and paste the public IP or DNS
 to check nginx enter IP or DNS:PORTNO to display the server you have launched
+if you want to change the tittle name and wants to edit the ip address name then run
+    nano /usr/share/nginx/html/index.html
